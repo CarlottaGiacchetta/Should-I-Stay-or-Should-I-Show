@@ -1,0 +1,116 @@
+{
+  "cp": {
+    "0p02": {
+      "DirectRisk": {
+        "epochs": 25,
+        "optimizer": "adamw",
+        "lr": 0.0002,
+        "dropout": 0.1,
+        "weight_decay": 0.001
+      },
+      "ClasswiseRisk": {
+        "epochs": 25,
+        "optimizer": "adamw",
+        "lr": 0.0001,
+        "dropout": 0.1,
+        "weight_decay": 0.001
+      }
+    },
+    "0p01": {
+      "DirectRisk": {
+        "epochs": 25,
+        "optimizer": "adamw",
+        "lr": 0.0002,
+        "dropout": 0.1,
+        "weight_decay": 0.001
+      },
+      "ClasswiseRisk": {
+        "epochs": 25,
+        "optimizer": "adamw",
+        "lr": 0.0001,
+        "dropout": 0.3,
+        "weight_decay": 0.01
+      }
+    },
+    "0p05": {
+      "DirectRisk": {
+        "epochs": 25,
+        "optimizer": "adamw",
+        "lr": 0.0001,
+        "dropout": 0.3,
+        "weight_decay": 0.001
+      },
+      "ClasswiseRisk": {
+        "epochs": 100,
+        "optimizer": "adamw",
+        "lr": 0.0001,
+        "dropout": 0.3,
+        "weight_decay": 0.01
+      }
+    },
+    "0p03": {
+      "DirectRisk": {
+        "epochs": 100,
+        "optimizer": "adam",
+        "lr": 0.0001,
+        "dropout": 0.1,
+        "weight_decay": 0.001
+      },
+      "ClasswiseRisk": {
+        "epochs": 100,
+        "optimizer": "adamw",
+        "lr": 0.0001,
+        "dropout": 0.1,
+        "weight_decay": 0.01
+      }
+    },
+    "0p04": {
+      "DirectRisk": {
+        "epochs": 25,
+        "optimizer": "adamw",
+        "lr": 0.0001,
+        "dropout": 0.1,
+        "weight_decay": 0.001
+      },
+      "ClasswiseRisk": {
+        "epochs": 25,
+        "optimizer": "adamw",
+        "lr": 0.0001,
+        "dropout": 0.1,
+        "weight_decay": 0.01
+      }
+    }
+  },
+  "email": {
+    "ClasswiseRisk": {
+      "epochs": 50,
+      "optimizer": "adam",
+      "lr": 0.0002,
+      "dropout": 0.3,
+      "weight_decay": 0.001
+    },
+    "DirectRisk": {
+      "epochs": 25,
+      "optimizer": "adamw",
+      "lr": 0.0002,
+      "dropout": 0.1,
+      "weight_decay": 0.001
+    }
+  },
+  "synth": {
+    "DirectRisk": {
+      "epochs": 10,
+      "optimizer": "adam",
+      "lr": 0.0005,
+      "dropout": 0.05,
+      "weight_decay": 0.0001
+    },
+    "ClasswiseRisk": {
+      "epochs": 10,
+      "optimizer": "adam",
+      "lr": 0.0005,
+      "dropout": 0.05,
+      "weight_decay": 0.0001
+    }
+  }
+}
